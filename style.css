@@ -1,0 +1,217 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+    }
+
+    /* header */
+    .header {
+      background-color: #cccccc;
+      display: flex;
+      justify-content: space-between;
+      padding: 4px 8px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 18px;
+    }
+    .header span {
+      font-size: 12px;
+    }
+
+    /* toolbar */
+    .toolbar {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 8px;
+      border-bottom: 1px solid #dddddd;
+    }
+    .btn {
+      background-color: #f2f2f2;
+      border: 1px solid #dddddd;
+      border-radius: 3px;
+      padding: 3px 8px;
+      font-size: 11px;
+      font-weight: bold;
+      color: #555555;
+      margin-right: 5px;
+      display: inline-flex;
+      align-items: center;
+    }
+    .btn img {
+      width: 12px;
+      height: 12px;
+      margin-right: 5px;
+    }
+    .search {
+      display: flex;
+      border: 1px solid #dddddd;
+    }
+    .search input {
+      border: none;
+      width: 180px;
+      padding: 3px 6px;
+      font-size: 11px;
+    }
+    .search button {
+      border: none;
+      background-color: white;
+    }
+    .search img {
+      width: 13px;
+      height: 13px;
+    }
+
+    /* layout */
+    .wrapper {
+      display: flex;
+    }
+
+    /* sidebar */
+    .sidebar {
+      width: 330px;
+      min-height: 500px;
+      background-color: #f0f0f0;
+      border-right: 3px solid #d0d0d0;
+    }
+    .sidebar h2 {
+      margin: 0;
+      padding: 5px 8px;
+      font-size: 13px;
+      color: white;
+      background-color: #444444;
+    }
+    .surat {
+      display: flex;
+      background-color: white;
+      border: 1px solid #e0e0e0;
+      border-left: 3px solid #444444;
+      border-radius: 4px;
+      margin: 3px 0 0 3px;
+      padding: 8px;
+    }
+    .surat img {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+    .surat .isi {
+      flex: 1;
+    }
+    .surat b {
+      display: block;
+      font-size: 12px;
+    }
+    .surat p {
+      margin: 3px 0 0 0;
+      font-size: 11px;
+      color: #555555;
+    }
+    .surat .tanggal {
+      font-size: 10px;
+      color: #888888;
+      margin-left: 8px;
+      text-align: right;
+    }
+
+    /* konten */
+    .konten {
+      flex: 1;
+    }
+    .tab {
+      background-color: #cccccc;
+      border-bottom: 3px solid #ee5f27;
+    }
+    .tab span {
+      display: inline-block;
+      background-color: #ee5f27;
+      color: white;
+      font-weight: bold;
+      font-size: 12px;
+      padding: 5px 12px;
+    }
+    .tombol {
+      padding: 8px;
+    }
+
+    /* kartu */
+    .kartu {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 25px 0 8px;
+    }
+    .box {
+      width: 31%;
+      border: 1px solid;
+    }
+    .box .atas {
+      color: white;
+      height: 95px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .box .atas img {
+      width: 60px;
+      height: 60px;
+    }
+    .box .angka {
+      text-align: right;
+    }
+    .box .angka div {
+      font-size: 36px;
+    }
+    .box .bawah {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 10px;
+    }
+    .box .bawah img {
+      width: 14px;
+      height: 14px;
+    }
+
+    .hijau { border-color: #23bf43; }
+    .hijau .atas { background-color: #23bf43; }
+    .hijau .bawah { background-color: #e6f8ea; color: #23bf43; }
+
+    .biru { border-color: #22b1d7; }
+    .biru .atas { background-color: #22b1d7; }
+    .biru .bawah { background-color: #e5f6fb; color: #22b1d7; }
+
+    .merah { border-color: #ef4d52; }
+    .merah .atas { background-color: #ef4d52; }
+    .merah .bawah { background-color: #fdeaeb; color: #ef4d52; }
+
+    /* todo */
+    .todo {
+      margin: 35px 8px 0 8px;
+    }
+    .todo .ungu {
+      background-color: #7566be;
+      color: white;
+      padding: 8px 10px;
+    }
+    .todo .cari {
+      display: flex;
+      background-color: #eef0f2;
+      margin-top: 5px;
+    }
+    .todo .cari input {
+      flex: 1;
+      border: none;
+      background-color: #eef0f2;
+      padding: 5px 8px;
+      font-size: 12px;
+    }
+    .todo .cari img {
+      width: 14px;
+      height: 14px;
+      margin: 5px 10px;
+    }
+    .todo .kosong {
+      text-align: center;
+      font-style: italic;
+      padding: 12px;
+    }
